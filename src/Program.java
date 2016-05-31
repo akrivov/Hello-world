@@ -4,13 +4,13 @@ public class Program
 {
 	static MyThread mSecondThread;
 	
-
+//sdfsdfsdf
 	
 	
 	public static void main(String[] args)
 	{
 		JFrame.setDefaultLookAndFeelDecorated(true); 
-        JFrame frame = new JFrame("Управление");
+        JFrame frame = new JFrame("Управление потоком");
         
   
         //Create and set up the content pane.
