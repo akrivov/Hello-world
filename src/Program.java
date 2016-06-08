@@ -9,17 +9,17 @@ public class Program
 	
 	public static void main(String[] args)
 	{
-		JFrame.setDefaultLookAndFeelDecorated(true); 
-        JFrame frame = new JFrame("Управление потоком");
+
+        TabbedPane tp = new TabbedPane();
+      
+        tp.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        tp.setSize(400, 300);
         
-  
-        //Create and set up the content pane.
-        Frame demo = new Frame();
-        frame.setContentPane(demo.createContentPane()); // запускаем метод описывающий внешний вид
-       
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 300);
-        frame.setVisible(true);	
+        tp.setVisible(true);
+        
+//        JavaToMysql.getStudents();
+        
+
 	}
 
 }
